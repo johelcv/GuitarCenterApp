@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace GuitarCenterDAO
 {
-    public class Class1
+    public class NuevaClase
     {
-        //Primer comentario
+        //Clase para realizar el DAO - CAMBIAR EL NOMBRE!!
     }
 }
