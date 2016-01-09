@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuitarCenter.Entities", "Gu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuitarCenterWebSite", "GuitarCenterWebSite\GuitarCenterWebSite.csproj", "{614DF149-D979-45EC-94B7-DB22E4089882}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuitarCenter.BL", "GuitarCenter.BL\GuitarCenter.BL.csproj", "{5E0FEDC2-9547-48D5-8C60-A1F717F8A49A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{614DF149-D979-45EC-94B7-DB22E4089882}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{614DF149-D979-45EC-94B7-DB22E4089882}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{614DF149-D979-45EC-94B7-DB22E4089882}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E0FEDC2-9547-48D5-8C60-A1F717F8A49A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E0FEDC2-9547-48D5-8C60-A1F717F8A49A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E0FEDC2-9547-48D5-8C60-A1F717F8A49A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E0FEDC2-9547-48D5-8C60-A1F717F8A49A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
