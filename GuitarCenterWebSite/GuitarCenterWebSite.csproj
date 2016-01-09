@@ -235,10 +235,10 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Guitars\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\Guitars\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -249,6 +249,10 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\GuitarCenter.BL\GuitarCenter.BL.csproj">
+      <Project>{5e0fedc2-9547-48d5-8c60-a1f717f8a49a}</Project>
+      <Name>GuitarCenter.BL</Name>
+    </ProjectReference>
     <ProjectReference Include="..\GuitarCenter.DAC\GuitarCenter.DAC.csproj">
       <Project>{5205c0ea-1cea-41d4-88c3-e865425b74cd}</Project>
       <Name>GuitarCenter.DAC</Name>
