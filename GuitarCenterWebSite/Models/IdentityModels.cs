@@ -21,7 +21,7 @@ namespace GuitarCenterWebSite.Models
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
         public ApplicationDbContext()
-            : base("DefaultConnection", throwIfV1Schema: false)
+            : base("Guitars", throwIfV1Schema: false)
         {
         }
 
