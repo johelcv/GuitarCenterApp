@@ -52,7 +52,9 @@ namespace GuitarCenter.DAC
             IEnumerable<Entities.Guitar> result = new List<Entities.Guitar>();
             using (var con = new SqlConnection(this.ConnectionString))
             {
+                con.Open();
                 result = con.Query<Entities.Guitar>("usp_guitar_get", commandType: System.Data.CommandType.StoredProcedure);
+                con.Close();
             }
             return result;
         }
